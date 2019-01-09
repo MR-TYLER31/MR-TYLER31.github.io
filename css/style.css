@@ -1,0 +1,92 @@
+
+/* Navbar Section */
+.navbar {
+opacity: 0.5;
+ }
+
+ .navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+ #home-section {
+   background: url('../img/header1.jpg') no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+  min-height: 700px;
+}
+
+
+ #home-section .dark-overlay {
+   background-color: rgba(0, 0, 0, 0.7);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   min-height: 700px;
+ }
+
+ #home-section .home-inner {
+   padding-top: 150px;
+}
+
+
+#social-header {
+  border-bottom: 5px solid #343a40;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#blog {
+  height: 200px;
+  background: url('../img/image1.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+
+#main-footer {
+  background: #343a40;
+  color: white;
+}
+
+.social-icons {
+  position: relative;
+  left: -20px;
+}
+
+
+#main-footer li {
+list-style-type: none;
+cursor: pointer;
+}
+
+
+/* Contact Section */
+
+.google-maps {
+       position: relative;
+       padding-bottom: 75%; // This is the aspect ratio
+       height: 0;
+       overflow: hidden;
+   }
+   .google-maps iframe {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100% !important;
+       height: 100% !important;
+   }
